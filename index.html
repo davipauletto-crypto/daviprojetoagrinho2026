@@ -1,0 +1,113 @@
+<header class="hero">
+  <div class="overlay">
+    <h1>🌱 AGRO FORTE</h1>
+    <h2>FUTURO SUSTENTÁVEL</h2>
+
+    <p>
+      Produzir alimentos preservando a natureza.
+    </p>
+
+    <button onclick="document.getElementById('cards').scrollIntoView({behavior:'smooth'})">
+      Explorar
+    </button>
+
+    <p class="creditos">
+      Autor: Davi Pauletto<br>
+      Professora: Ana Paula
+    </p>
+  </div>
+</header>
+
+<section id="cards" class="cards">
+
+  <div class="card">
+    <h3>🌳 Sistema Agroflorestal</h3>
+
+    <p>
+      Integra árvores e agricultura no mesmo espaço,
+      aumentando a biodiversidade e protegendo o solo.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200">
+
+    <button onclick="info('agro')">Saiba Mais</button>
+  </div>
+
+  <div class="card">
+    <h3>🚫 Desmatamento</h3>
+
+    <p>
+      A retirada excessiva de árvores prejudica o clima
+      e reduz a biodiversidade.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1511497584788-876760111969?q=80&w=1200">
+
+    <button onclick="info('desmatamento')">Saiba Mais</button>
+  </div>
+
+  <div class="card">
+    <h3>🏭 Poluição</h3>
+
+    <p>
+      A poluição contamina o ar, a água e o solo,
+      causando impactos ambientais.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1611273426858-4506f0d4ada0?q=80&w=1200">
+
+    <button onclick="info('poluicao')">Saiba Mais</button>
+  </div>
+
+</section>
+
+<section class="jogo">
+
+  <h2>🎮 Jogo: Plante Árvores</h2>
+
+  <p>Clique para plantar árvores.</p>
+
+  <button onclick="plantar()">
+    🌱 Plantar
+  </button>
+
+  <h3>Árvores Plantadas: <span id="contador">0</span></h3>
+
+</section><nav class="navbar">
+  <div class="logo">🌱 Agro Forte</div>
+
+  <ul class="menu">
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="#agro">Agroflorestal</a></li>
+    <li><a href="#desmatamento">Desmatamento</a></li>
+    <li><a href="#poluicao">Poluição</a></li>
+    <li><a href="#jogo">Jogo</a></li>
+    <li><a href="#referencias">Referências</a></li>
+  </ul>
+</nav><section id="inicio"><section id="agro"><section id="desmatamento"><section id="poluicao"><section id="jogo"><section id="referencias"><div class="controles">
+  <button onclick="modoClaro()">☀️</button>
+  <button onclick="modoEscuro()">🌙</button>
+  <button onclick="aumentarFonte()">A+</button>
+  <button onclick="diminuirFonte()">A-</button>
+</div><img
+
+
+  <h2>📚 Referências Bibliográficas</h2>
+
+  <p>
+    Este projeto foi desenvolvido com base em pesquisas sobre sustentabilidade,
+    sistema agroflorestal, desmatamento e poluição ambiental.
+  </p>
+
+  <ul>
+    <li>EMBRAPA - Empresa Brasileira de Pesquisa Agropecuária.</li>
+    <li>FAO - Organização das Nações Unidas para Alimentação e Agricultura.</li>
+    <li>Ministério do Meio Ambiente e Mudança do Clima.</li>
+    <li>ONU Meio Ambiente.</li>
+  </ul>
+
+  <p class="creditos-finais">
+    Autor: Davi Pauletto | Professora: Ana Paula
+  </p>
+
+</section>
